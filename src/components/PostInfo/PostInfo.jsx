@@ -6,7 +6,7 @@ export const PostInfo = ({ post }) => {
   const comments = post.comments || [];
 
   return (
-    <div className="PostInfo" key={post.id}>
+    <div className="PostInfo">
       <div className="PostInfo__header">
         <h3 className="PostInfo__title">{post.title}</h3>
 
